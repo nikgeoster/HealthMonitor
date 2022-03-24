@@ -1,0 +1,155 @@
+#heading{
+    top:0;
+    left:0;
+    position: sticky;
+    height: 5vh;
+}
+#content{
+    padding-top: 5vh;
+    height: 100%;
+    width: 100%;
+}
+#Reports{
+    height: 100vh;
+    padding: 5vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 10vh;
+    padding-left:10%;
+    padding-right: 10%;
+}
+.Report{
+    width: 100%; 
+    margin-bottom: 25px;  
+    padding-bottom: 25px;  
+    overflow-x: hidden;
+}
+.ReportHeading{
+    border: solid 1px #f2f2f2;
+    padding: 15px;
+    background-color: #0089CC;
+    color: #FFF;
+    font-family: verdana;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.HeadSubscript{
+    width: 100%;
+    text-align: right;
+    font-size: small;
+    font-weight: normal;
+}
+.content{
+    border-left: solid 1px #f2f2f2;
+    border-right: solid 1px #f2f2f2;
+    border-bottom: solid 1px #f2f2f2;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    height: 65vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.tableHeading{
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+.borderStyle{
+    border: 2px;
+    border-color: black;
+    text-align: center;
+    background-color: white ;
+    padding: 2px;    
+    border-spacing: 5px;
+    border-style: solid;
+}
+.leftAlign{
+    text-align: left;
+}
+.AppHeader{
+    background-color: #0089cc;
+    color: white;
+    font-weight: bolder;
+}
+.MainHeader{
+    background-color: #0089cc;
+    color: white;
+    font-weight: bolder;
+}
+.StatusHeader{
+    background-color: #0089cc;
+    font-weight: bolder;
+    color: white;
+}
+.ResultColorWhite{
+    background-color: white;
+    font-weight: bold;
+    color:black;
+}
+.ResultColorYellow{
+    background-color: yellow;
+    font-weight: bold;
+    color: black;
+}
+.ResultColorGreen{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.ResultColorRed{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.lineItem{
+    color: black;
+}
+#position{
+    padding-left: 1vh ;
+}
+.loginContent{
+    margin: 10%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-content: center;
+    vertical-align: middle;
+    top: 10%;
+    left:10%;
+}
+.loginForm{
+    height: 50%;
+    width: 50%;
+    top:50%;
+    left:50%;
+    align-content: center;
+    vertical-align: middle;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 2%;
+    margin-left: 25%;
+}
+#nameInput,#pwdInput{
+    width: 50%;
+    align-content: center;
+    vertical-align: middle;
+    margin-left: 25%;
+}
+#btnSubmit{
+    align-content: center;
+    vertical-align: middle;
+    margin-left: 45%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#loginHeader{
+    width: 100%;
+    margin-left: 30%;
+    align-content: center;
+    vertical-align: middle;
+}
