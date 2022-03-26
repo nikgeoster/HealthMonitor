@@ -11,7 +11,7 @@ class SubApplication extends Component {
             subAppDat: []
         };
         this.togglePanel = this.togglePanel.bind(this);
-        this.renderSubAppDat();
+       // this.renderSubAppDat();
     }
 
     togglePanel(e){

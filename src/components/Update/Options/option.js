@@ -12,7 +12,7 @@ class Options extends Component {
             selectedStat:null,
             submitDisabled: true
         };
-        this.renderOptions();
+        //this.renderOptions();
     }
     renderOptions() {
         axios.get(API_SERVER+'api/fetch_options/' + this.props.User)
